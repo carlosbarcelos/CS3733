@@ -1,0 +1,19 @@
+Team Odysseus (Justin Myerson, Michelle Gagnon, Carlos Barcelos, Kevin Valente, Andre Imperiali)
+5/4/2016
+Final Version
+Kabasuji
+CS 3733
+Java
+
+Launcher Instructions:
+
+	There are two parts to this program. Each part has its own launcher and running design:
+		1) Builder - Allows a user to build a number of levels that fall within the three game
+					 type categories: puzzle, lightning and release
+			*  IN ORDER TO LAUNCH - Please find the Java application called "Builder" found in the "odysseus" main package.
+								File location: Odysseus/src/odysseus/Builder
+								
+		2) Player - Allows a user to play one of the fifteen pre-built levels or a number of user created levels
+					of the three game type categories: puzzle, lightning and release
+			* IN ORDER TO LAUNCH - Please find the Java application called "Player" found in the "odysseus" main package.
+								File location: Odysseus/src/odysseus/Player"

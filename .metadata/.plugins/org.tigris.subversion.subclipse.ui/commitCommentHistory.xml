@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>The final commit.
+</CommitComment>
+	<CommitComment>Closer to getting testPuzzle to pass.</CommitComment>
+	<CommitComment>Fixed the Piece.initalizeSquares() problem; made general to accomodate for Square.WIDTH.</CommitComment>
+	<CommitComment>Created a second, locked level.</CommitComment>
+	<CommitComment>Changed the way the Board and Bullpen handle pieces. No longer HashMap, now ArrayList.</CommitComment>
+	<CommitComment>Not necessary.</CommitComment>
+	<CommitComment>Hard coded a level to test. Level created in a test case.</CommitComment>
+	<CommitComment>Changed the names of the views to more accuratly reflect the name of the view classes.</CommitComment>
+	<CommitComment>Levels now save to a special &quot;LevelType&quot; folder. Levels can be deleted and loaded by their level number. Kabasuji game class knows its levels and loads them upon initalization.</CommitComment>
+	<CommitComment>Made various changes and workings.</CommitComment>
+</CommitComments>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SessionExportWizard">
+		<item value="CSV" key="SessionExportPage1.format"/>
+		<list key="SessionExportPage1.destinations">
+			<item value="C:\Users\barce\Dropbox\Soft. Eng\Group Project\Coverage Report\Coverage - May 2-2.csv"/>
+			<item value="C:\Users\barce\Dropbox\Soft. Eng\Group Project\Coverage Report\Coverage - May 2.csv"/>
+			<item value="C:\Users\barce\Dropbox\Soft. Eng\Group Project\Coverage Report\Coverage - May 1-4.csv"/>
+			<item value="C:\Users\barce\Dropbox\Soft. Eng\Group Project\Coverage Report\Coverage - May 1-3.csv"/>
+			<item value="C:\Users\barce\Dropbox\Soft. Eng\Group Project\Coverage Report\Coverage - May 1-2.csv"/>
+		</list>
+	</section>
+</section>

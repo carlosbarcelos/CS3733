@@ -1,0 +1,10 @@
+package common.entities;
+
+import junit.framework.TestCase;
+
+public class testSquare extends TestCase {
+
+	public void testGetType(){
+		Square s = new Square(new Color(1,2,3), "null", 10, 10);
+	}
+}

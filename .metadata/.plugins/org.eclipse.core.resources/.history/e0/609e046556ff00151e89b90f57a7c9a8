@@ -1,0 +1,19 @@
+package common.entities;
+import org.eclipse.swt.graphics.Color;
+
+public class Square {
+
+	int width;
+	int heigt;
+	Color c;
+	Coordinate points;
+	String type;
+	
+	public Square(int width, int height, Color c, Coordinate points, String type){
+		this.width = width;
+		this.heigt = height;
+		this.c = c;
+		this.points = points;
+		this.type = type;
+	}
+}

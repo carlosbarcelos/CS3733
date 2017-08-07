@@ -1,0 +1,44 @@
+package odysseus.view.controller;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import odysseus.Builder;
+import odysseus.view.Frames.BuilderMenu;
+import odysseus.view.Frames.BuilderRLvl;
+
+/**
+ * Allows builder to move from the menu to release level select.
+ * @author Kevin Valente
+ *
+ */
+public class BuilderReleaseController implements ActionListener {
+	Builder model;
+	BuilderMenu one;
+	
+	public BuilderReleaseController (BuilderMenu menuBuilder, Builder model2) {
+		this.one = menuBuilder;
+		this.model = model2;
+	}
+
+	/**
+	 * Switch from the Main Menu to the Puzzle level.
+	 */
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		// get value
+		try {
+			int ival  = Integer.parseInt(one.getTextField().getText());
+			one.setVisible(false);
+			
+			model.levelR.setValue(ival);  // update
+			
+			BuilderRLvl two = new BuilderRLvl(model.levelR);
+			two.setPreviousFrame(one);
+			two.setVisible(true);
+		} catch (Exception ex) {
+			System.err.println("Not Integer!!!");
+		}
+	}
+}

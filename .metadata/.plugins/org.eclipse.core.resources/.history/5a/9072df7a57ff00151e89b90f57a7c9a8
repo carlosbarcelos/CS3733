@@ -1,0 +1,12 @@
+package common.entities;
+
+public class Piece {
+	
+	Square[][] squares = new Square[6][6];
+	int title; // 1-35
+	
+	public Piece(Squares[][] squares, int title){
+		this.squares = squares;
+		this.title = title;
+	}
+}

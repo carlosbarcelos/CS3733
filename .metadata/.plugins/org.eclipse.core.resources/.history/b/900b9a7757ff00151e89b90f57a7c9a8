@@ -1,0 +1,5 @@
+package common.entities;
+
+public class Piece {
+
+}

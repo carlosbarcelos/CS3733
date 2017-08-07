@@ -1,0 +1,14 @@
+package common.entities;
+
+import java.awt.Color;
+
+import junit.framework.TestCase;
+
+public class testSquare extends TestCase {
+
+	public void testGetType(){
+		Square s = new Square(new Color(1,2,3), "null", 10, 10);
+		assertEquals(s.getType(), "null");
+		assertEquals(s.getLocation(), new int[] = {10,10,40,40});
+	}
+}

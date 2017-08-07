@@ -1,0 +1,7 @@
+package common.entities;
+
+import junit.framework.TestCase;
+
+public class testSquare extends TestCase {
+
+}
